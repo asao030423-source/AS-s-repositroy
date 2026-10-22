@@ -1,0 +1,30 @@
+{
+  "name": "codex-rin-companion",
+  "version": "0.1.2",
+  "description": "Codex 专用的开源凛桌面伴侣：官方额度、会话用量与可修改主题",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node scripts/control.mjs open",
+    "desktop": "node scripts/control.mjs desktop",
+    "test": "node --test tests/*.test.mjs",
+    "install:mac": "node scripts/install-macos.mjs",
+    "uninstall:mac": "node scripts/uninstall-macos.mjs",
+    "probe:mac": "node scripts/probe-macos.mjs",
+    "diagnose": "node scripts/diagnose.mjs",
+    "check": "node scripts/check-package.mjs",
+    "pack": "node scripts/package.mjs",
+    "smoke:desktop": "node scripts/smoke-desktop.mjs"
+  },
+  "codexBuild": "rin-0.1.2",
+  "distributionName": "codex-rin-companion-v0.1.2",
+  "releaseTag": "v0.1.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asao030423-source/AS-s-repositroy.git"
+  }
+}

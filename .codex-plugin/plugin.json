@@ -1,0 +1,37 @@
+{
+  "name": "codex-rin-companion",
+  "version": "0.1.2",
+  "description": "Codex 专用的开源凛桌面伴侣",
+  "author": {
+    "name": "asao030423-source",
+    "url": "https://github.com/asao030423-source"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Rin Companion",
+    "shortDescription": "官方订阅额度、会话用量、凛与可修改主题",
+    "longDescription": "Windows 优先。自动发现官方 Codex 程序，保留真实数据时间，角色与台词可自行修改。",
+    "developerName": "asao030423-source",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "显示凛桌面伴侣",
+      "查看 Codex 官方订阅额度",
+      "诊断凛的额度连接"
+    ],
+    "brandColor": "#146B70",
+    "composerIcon": "./assets/rin-default.png",
+    "logo": "./assets/rin-default.png"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "rin",
+    "companion",
+    "quota",
+    "open-source"
+  ],
+  "mcpServers": "./.mcp.json"
+}
